@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather&family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    background-color: #FEF2DA;
+}
+
+.tourist_spot_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+.tourist_spot_header .logo {
+    font-size: 32px;
+    font-family: 'Newsreader';
+    font-weight: normal;
+    margin-left: 100px;
+}
+.tourist_spot_header .header-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin-right: 100px;
+}
+.tourist_spot_header .header-nav ul a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding: 13px 16px;
+}
+.tourist_spot_header .header-nav ul .tourist_spot:active {
+    background-color: #01C939;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .restaurants:hover {
+    background-color: #F97C7C;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .resorts:hover {
+    background-color: #FF7236;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .home:hover {
+    background-color: #E77CF9;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.intro {
+    width: 100vw;
+    height: 750px;
+    background-image: url(/image/bg-img-intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro h1 {
+    font-family: 'Merriweather';
+    margin: 100px auto 0 60px;
+    font-size: 92px;
+    color: #FFFFFF;
+}
+.intro p {
+    font-family: 'Poppins';
+    margin: 25px auto 0 60px;
+    font-size: 32px;
+}
+.spots {
+    width: 100vw;
+    min-height: 780px;
+    display: flex;
+    flex-direction: column;
+}
+.spots .content {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.spots .title {
+    height: 75px;
+    margin-top: 50px;
+}
+.spots .content img {
+    width: 801.03px;
+    height: 628px;
+    margin: 138px 10px auto;
+    border-radius: 8px;
+}
+.spots .content p {
+    margin-top: 150px;
+    margin-right: 50px;
+    font-size: 24px;
+}
+.spots h3 {
+    font-family: 'Merriweather';
+    margin-left: 60px;
+    font-size: 60px;
+    color: #FB5A00;
+}
+.spots p {
+    font-family: 'Poppins';
+    margin-left: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 380px;
+    background-color: #000000;
+    gap: 100px;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 50px;
+}
+.footer div p {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+.footer .one {
+    margin-left: 45px;
+}
+.footer .three {
+    margin-right: 45px;
+}
